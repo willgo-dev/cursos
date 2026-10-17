@@ -10,4 +10,4 @@ Ejercicios que hice mientras aprendía desarrollo web. Son de práctica, no proy
 
 Los PDF y zips del curso no se incluyen porque son material del curso.
 
-Más trabajos: https://github.com/willgo-dev
+Más trabajos: https://github.com/willnet-dev
