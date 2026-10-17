@@ -1,0 +1,9 @@
+# Material del curso (derechos de autor de Udemy / App Brewery): no se publica
+*.pdf
+*.zip
+Udemy/CourseZips/
+Udemy/DataBases/
+
+node_modules/
+.DS_Store
+.env

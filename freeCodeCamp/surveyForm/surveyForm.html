@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+    <h1 id="title">Website Survey Form</h1>
+    <p id="description">Thank you for visiting my website!</p>
+    <form id="survey-form">
+        <fieldset>
+        <label id="name-label">Name <input id="name" type="text" required placeholder="Enter your name" /></label>
+        <label id="email-label">Email <input id="email" type="email" required placeholder="Enter yor email" /></label>
+        <label id="number-label">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+        </fieldset>
+        <fieldset>
+        <label for="dropdown">Which option best describes your role?  
+            <select id="dropdown">
+            <option value="">(Select one)</option>
+            <option value="1">Customer</option>
+            <option value="2">Company</option>
+            <option value="4">Other</option>
+            </select>
+        </label>
+        </fieldset>
+        <fieldset>
+            <legend>Would you recommend this Website to a friend?</legend>
+            <label for="definitely-recommendation"><input id="definitely-recommendation" type="radio" name="recommendation-type" class="inline" value="Definitely" checked /> Definitely</label>
+            <label for="maybe-recommendation"><input id="maybe-recommendation" type="radio" name="recommendation-type" class="inline" value="Maybe" /> Maybe</label>
+            <label for="not-sure-recommendation"><input id="not-sure-recommendation" type="radio" name="recommendation-type" class="inline" value="Not-sure" /> Not sure</label>
+            <label for="absolutely-not-recommendation"><input id="absolutely-not-recommendation" type="radio" name="recommendation-type" class="inline" value="Absolutely-not" /> Absolutely not</label>
+        </fieldset>
+        <fieldset>
+            <legend>What best describes this website? (Check all that apply)</legend>       
+            <label for="front-end"><input id="front-end" type="checkbox" value="Front-end" class="inline" /> Front-end</label>
+            <label for="back-end"><input id="back-end" type="checkbox" value="Back-end" class="inline" /> Back-end</label>
+            <label for="visualization"><input id="visualization" type="checkbox" class="inline" value="Visualization" /> Data Visualization</label>
+            <label for="portfolio"><input id="portfolio" type="checkbox" value="Portfolio" class="inline" /> Portfolio</label>
+            <label for="skills"><input id="skills" type="checkbox" value="Skills" class="inline" /> Skills</label>
+        </fieldset>
+        <fieldset>
+            <label for="comments">Any comments or suggestions?
+                <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+            </label>
+            <input type="submit" id="submit" />
+        </fieldset>
+    </form>
+    </body>
+</html>
